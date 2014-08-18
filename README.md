@@ -15,5 +15,7 @@ or
 mysqlcommands:
 
 CREATE DATABASE rada CHARACTER SET utf8 COLLATE utf8_general_ci;
+
 use rada;
+
 CREATE TABLE zakoni (id MEDIUMINT NOT NULL AUTO_INCREMENT, url VARCHAR (255) NOT NULL, date DATE, state TINYINT, PRIMARY KEY (id));
