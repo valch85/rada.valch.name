@@ -3,7 +3,8 @@ rada.valch.name
 for Lena
 
 ===============
-vim /etc/crontab
+vim /etc/crontab 
+
 0 *	* * *	root	/usr/bin/php /var/www/rada.valch.name/cronrada.php
 or
 0 10	* * *	root	/usr/bin/php /var/www/rada.valch.name/cronrada.php
